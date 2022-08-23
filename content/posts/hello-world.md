@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2022-08-23T12:00:00+01:00
-draft: true
+draft: false
 tags: [misc]
 ---
 
