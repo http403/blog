@@ -1,0 +1,30 @@
+baseURL = 'https://hartmantam.xyz/'
+languageCode = 'en-us'
+title = 'Nonsensical Gibberish'
+theme = 'ink'
+
+copyright = "CC BY 4.0"
+
+[params]
+    subtitle = "Anything can show up here"
+    mainSections = ["posts"]
+
+[[menu.main]]
+name = "Home"
+url = '/'
+weight = 1
+
+[[menu.main]]
+name = "All Posts"
+url = '/posts'
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = '/about'
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = '/tags'
+weight = 4
