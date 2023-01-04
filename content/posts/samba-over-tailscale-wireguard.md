@@ -10,7 +10,7 @@ I recently found out about Tailscale, a control plane for WireGuard. I decided t
 The goal was to access my videos from the server via my Windows PC and Android phone, while also ensuring that the data was secure in transit, and not accessed by others. On my PC, I planned to use Windows' native SMB support. On my Android phone, I intended to use the MX Player app to access the videos.
 
 ## Problem
-One of the main reasons I initially chose not to serve SMB over the internet was due to security concerns. While SMB is commonly used in local area networks (LANs), it is not designed for use over the internet and may not provide adequate security when used in this manner. Additionally, the Android app I'm using only supports SMB, so I had no other choice but to use it.
+One of the main reasons I initially chose not to serve SMB over the internet was due to security concerns. While SMB is commonly used in LAN, it is not designed for use over the internet and may not provide adequate security when used in this manner. Additionally, the Android app I'm using only supports SMB, so I had no other choice but to use it.
 
 ## Solution
 The solution I came up with was to tunnel all Samba traffic through Tailnet, the WireGuard network managed by Tailscale. This way, I could benefit from the security provided by WireGuard and the authentication provided by Tailscale. Completing the goal of secure data in transit and authenticated access.
@@ -37,7 +37,8 @@ After consulting the documentation, I believed the following configuration would
 ```
 
 ### Debugging the Issue
-Unfortunately, this configuration did not work as expected. The Samba server did not bind to the Tailscale interface. Upon further investigation, I read a post on Unix Stack Exchange that Samba does not function when the kernel cannot provide the necessary IP and netmask information. As a result, I modified the configuration as follows:
+Unfortunately, this configuration did not work as expected. The Samba server did not bind to the Tailscale interface. Upon further investigation, I read a [post on Unix StackExchange](https://unix.stackexchange.com/a/613409) that Samba will not listen Wireguard interface unless IP and netmask are given. As a result, I modified the configuration as follows:
+
 
 ```
 [global]
