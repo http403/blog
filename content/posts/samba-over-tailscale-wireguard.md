@@ -1,7 +1,7 @@
 ---
 title: "Samba over Tailscale/Wireguard"
 date: 2023-01-04T18:14:39Z
-draft: true
+draft: false
 tags: [server, samba, tailscale, wireguard]
 ---
 I recently found out about Tailscale, a control plane for WireGuard. I decided to revisit an old project of mine and use it to set up a Samba server on an long ignored dedicated server so that I could access my videos remotely. However, the process proved to be more challenging than I had anticipated.
