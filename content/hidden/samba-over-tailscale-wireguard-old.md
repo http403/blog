@@ -45,6 +45,7 @@ After consulting the documentation, I believed the following configuration would
 ### Debugging the Issue
 Unfortunately, this configuration did not work as expected. The Samba server did not bind to the Tailscale interface. Upon further investigation, I read a [post on Unix StackExchange](https://unix.stackexchange.com/a/613409) that Samba will not listen Wireguard interface unless IP and netmask are given. As a result, I modified the configuration as follows:
 
+
 ```
 [global]
     interfaces = lo 100.64.0.0/10   # 100.64.0.0/10 is the IP range that Tailscale assigns
