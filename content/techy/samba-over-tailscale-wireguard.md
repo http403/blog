@@ -1,10 +1,16 @@
 ---
 title: "Samba over Tailscale/Wireguard"
-date: 2023-01-04T18:14:39Z
+date: 2023-02-25T00:00:00Z
 draft: false
 tags: [server, samba, tailscale, wireguard]
+author: ["Hartman"]
+searchHidden: false
+cover.image: ""
+cover.caption: ""
+cover.alt: ""
+cover.relative: true
 ---
-***Edit:** I rewritten my old article as that was too long and too many things are irrelevant. As my instructor said, you don't need to write irrelevant things in technical articles. Those're just lard. The old version is still readable [here](../hidden/samba-over-tailscale-wireguard-old.md).*
+> ***Edit:** I rewritten my old article as that was too long and too many irrelevant things. As my instructor said, technical documentation need to get straight on point, any other else are considered lard. But, if you like lard, I still have the [old version up](../hidden/samba-over-tailscale-wireguard-old.md).*
 
 I will show how to serve Samba share over Tailscale in a secure and (some what) hidden manner. I don't imply that SMB over Internet is not secure, but I'm more confident with Tailscale, or actually Wireguard that running under the hood.
 

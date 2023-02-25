@@ -3,6 +3,12 @@ title: "Hello World"
 date: 2022-08-23T12:00:00+01:00
 draft: false
 tags: [misc]
+author: ["Hartman"]
+searchHidden: false
+cover.image: ""
+cover.caption: ""
+cover.alt: ""
+cover.relative: true
 ---
 
 I don't know why, but I want to have a blog long ago. I always have a vague idea of documenting little things that I learnt but never took action, or failed to complete the post and give up mid-way.
