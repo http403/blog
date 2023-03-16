@@ -26,6 +26,7 @@ home = [ "HTML", "RSS", "JSON" ]
 [[menu.main]]
 name = "Tech"
 url = "/tech"
+
 weight = 10
 
 [[menu.main]]
