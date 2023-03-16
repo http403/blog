@@ -24,8 +24,9 @@ disableSpecial1stPost = true
 home = [ "HTML", "RSS", "JSON" ]
 
 [[menu.main]]
-name = "Techy"
-url = "/techy"
+name = "Tech"
+url = "/tech"
+
 weight = 10
 
 [[menu.main]]
