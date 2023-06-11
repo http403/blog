@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 tags: []
-author: [""]
+author: ["Hartman"]
 searchHidden: false
 cover.image: ""
 cover.caption: ""
