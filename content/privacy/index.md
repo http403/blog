@@ -11,8 +11,6 @@ cover.alt: ""
 cover.relative: true
 ---
 
-# Privacy Policy for (no title)
-
 ## 1. Introduction
 
 Welcome to (no title) ("we," "our," or "us"). We are committed to respecting the privacy and data protection rights of our users. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you visit our website. Please take a moment to read this Privacy Policy carefully.
