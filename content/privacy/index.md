@@ -40,7 +40,7 @@ The Umami analytics platform used on this website is self-hosted by us. This mea
 
 ## 6. Do Not Track Signals
 
-Your web browser may transmit "Do Not Track" signals to websites and online services. Our website currently does not have the capability to respond to "Do Not Track" signals, but we respect your preferences and choices. If you have enabled "Do Not Track" in your browser settings, we will not use Umami to collect information about your browsing behavior.
+Some web browsers offer a "Do Not Track" (DNT) setting that sends signals to websites indicating that the user does not wish to be tracked. We respect your preferences and choices regarding DNT signals. If your web browser has DNT enabled and transmits these signals to websites and online services, we will not use Umami to collect information about your browsing behavior. We honor your choice to opt out of tracking through Umami based on your browser's DNT setting.
 
 ## 7. GDPR Compliance
 
