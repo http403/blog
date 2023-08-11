@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 date: 2023-08-11T15:37:02+01:00
-draft: true
+draft: false
 tags: []
 author: ["Hartman"]
 searchHidden: false
