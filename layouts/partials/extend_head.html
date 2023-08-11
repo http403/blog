@@ -1,0 +1,7 @@
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+<script async 
+    src="https://pastoral-hound.pikapod.net/insight" 
+    data-website-id="4a5c0a93-db0a-4040-86d7-221f40a5e31d"
+    data-do-not-track="true"
+></script>
+{{- end -}}

@@ -9,24 +9,23 @@ enableRobotsTXT = true
 env = "production"
 title = "(no title)"
 description = "Anything can show up here"
-author = [ "Hartman" ]
-keywords = [ "blog", "tech", "server", "linux", "windows" ]
+author = ["Hartman"]
+keywords = ["blog", "tech", "server", "linux", "windows"]
 ShowReadingTime = true
 ShowCodeCopyButtons = true
 disableSpecial1stPost = true
 
-  [params.fuseOpts]
-  minMatchCharLength = 3
-  useExtendedSearch = true
-  keys = [ "title", "summary", "content" ]
+[params.fuseOpts]
+minMatchCharLength = 3
+useExtendedSearch = true
+keys = ["title", "summary", "content"]
 
 [outputs]
-home = [ "HTML", "RSS", "JSON" ]
+home = ["HTML", "RSS", "JSON"]
 
 [[menu.main]]
 name = "Tech"
 url = "/tech"
-
 weight = 10
 
 [[menu.main]]
